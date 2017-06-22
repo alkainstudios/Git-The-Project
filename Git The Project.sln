@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git The Project.Plugins", "Git The Project.Plugins.csproj", "{3CCB5628-B40F-9182-796F-5E88263DE8AD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git The Project", "Git The Project.csproj", "{D3258A79-2376-B04F-44BB-646F9697A55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git The Project.Editor.Plugins", "Git The Project.Editor.Plugins.csproj", "{1410143A-FA58-10B4-E448-B2D83BA77E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CCB5628-B40F-9182-796F-5E88263DE8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCB5628-B40F-9182-796F-5E88263DE8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCB5628-B40F-9182-796F-5E88263DE8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCB5628-B40F-9182-796F-5E88263DE8AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3258A79-2376-B04F-44BB-646F9697A55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3258A79-2376-B04F-44BB-646F9697A55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3258A79-2376-B04F-44BB-646F9697A55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3258A79-2376-B04F-44BB-646F9697A55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1410143A-FA58-10B4-E448-B2D83BA77E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1410143A-FA58-10B4-E448-B2D83BA77E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1410143A-FA58-10B4-E448-B2D83BA77E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1410143A-FA58-10B4-E448-B2D83BA77E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
